@@ -1,0 +1,36 @@
+{
+  "name": "tawhidali-website",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Tawhid Ali",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "flightplan": "^0.6.13",
+    "nodemailer": "^2.3.0"
+  },
+  "engines": {
+    "node": "12.12.0"
+  },
+  "devDependencies": {
+    "fly": "^1.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tawhidali123/tawhidali-thegreat.git"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "bugs": {
+    "url": "https://github.com/tawhidali123/tawhidali-thegreat/issues"
+  },
+  "homepage": "https://github.com/tawhidali123/tawhidali-thegreat#readme"
+}

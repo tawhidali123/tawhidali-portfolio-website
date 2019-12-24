@@ -1,0 +1,477 @@
+
+body {
+    margin: 0 auto;
+    }
+
+nav {
+    display: block;
+    text-align: right;
+}
+
+nav ul {
+    display: block;
+    margin: 13px 50px 0 0;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 4px 5px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #369;
+}
+
+
+
+.selected {
+    color: #18AFE0;
+}
+
+.left a:hover {
+    color: #18AFE0;
+    cursor: grab;
+}
+
+header {
+    text-align: center;
+    margin: 30px 0 0 0;
+    font-family: "CrimsonSemiBold", "Times New Roman", Georgia, serif;
+    overflow: hidden;
+}
+
+header h1 {
+    font-size: 2em;
+    font-family: "CrimsonSemiBold", "Times New Roman", Georgia, serif;
+    padding: 5px;
+}
+
+header h5 {
+    font-size: 20px;;
+}
+
+section {
+
+}
+
+.section1 {
+    text-align: center;
+    margin: 15px 0 50px
+}
+
+.section1 a {
+    box-shadow: 0px 0px 5px #000;
+    display: inline-block;
+    margin: 5px 20px;
+    padding: 10px;
+    width: 160px;
+    background: linear-gradient(to bottom, #fff, lightgray);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.section1 span {
+    color:#00688B;
+    text-decoration: underline;
+}
+
+sup {
+    color: black;
+
+}
+
+.section1 h4 {
+    color: red;
+    padding: 0;
+}
+
+
+
+.hr {
+    text-align: center;
+    margin: 10px 0 30px;
+}
+
+.section2 {
+    text-align: center;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.section2 h1 {
+    font-size: 2em;
+    width: 70%;
+    margin: 0 auto;
+    font-family: "CrimsonSemiBold", "Times New Roman", Georgia, serif;
+    line-height: default;
+    overflow: hidden;
+}
+
+.meet {
+    display: block;
+    margin-left: -60px;
+}
+
+.meet a {
+  float: left;
+  margin: -110px 0 0 0;
+}
+
+.arow {
+    float: left;
+    margin-top:-20px;
+    
+}
+
+
+
+.imgcontainer {
+    height: 104px;
+    width: 148px;
+    top:0;
+    overflow: hidden;
+}
+
+.imgcontainer img {
+    top: 0;
+    
+}
+
+.imgcontainer img:hover {
+    top: -104px;
+}
+
+
+.inline1 {
+    display: inline-block;
+    text-align: left;
+    
+}
+
+.section3 {
+    display: block;
+    padding: 25px 25px 0 45px;
+    width: 100%;
+    margin: 20px 0 50px 10px ;
+    text-align: center;
+      
+}
+
+.inline2 {
+    display: inline-block;
+    top:20px;
+}
+
+
+.logo {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.section4 {
+    text-align: center;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 0 0 30px 0;
+}
+
+.section5 h2 {
+    font-size: 2.5em;
+    margin: 0 auto;
+    font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+    font-weight: bold;
+    padding: 0 0 30px 0;
+    max-width: 75%;
+    
+}
+
+.wrapper1 {
+   max-width: 40%; 
+    display: inline-block;
+    margin-top: -20px;
+    text-align: left;
+}
+
+.wrapper2 {
+    max-width: 40%;
+    display: inline-block;
+    text-align: left
+    
+}
+
+.inner h3 {
+  font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+  padding-left: 5px;
+  width: 25px;
+  float: left;
+  font-size: 58px;
+  font-weight: 500;
+  line-height: normal;
+  margin: -10px 15px 0 0;
+  color: #CCC;
+}
+    
+}
+
+.innerh4 {
+  font-size: 1em;
+  margin: 5px ;
+  color: red;
+  text-align: left;
+}
+
+.inner p {
+    text-align: left;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 0;
+}
+
+
+
+.inner {
+    margin: 10px;
+}
+
+.section5 {
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.pics {
+    text-align: right;
+    margin-top: -100px;
+    
+}
+
+.img1 {
+    position: relative;
+    top: -50px;
+    left: 20px;
+}
+
+.img2 {
+    position: relative;
+    top: -50px;
+}
+
+.section6 {
+    max-width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+
+
+.container2 {
+    max-width: 45%;
+    display: inline-block;
+    margin-right: 2.5%;
+}
+
+.container1 {
+    max-width: 45%;
+    display: inline-block;
+    margin-right: 2.5%;
+}
+
+.container3 {
+   text-align: left;
+}
+
+
+
+.container4 {
+    display: inline-block;
+    max-width: 50%;
+    overflow: hidden;
+    top:-40px;
+    position: relative;
+    font-family: "CrimsonRomanItalic", "Times New Roman", Georgia, serif;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.container4 p {
+     font-style: normal;
+    font-family: sans-serif;
+    font-size: 10px;
+    
+}
+
+.pics p {
+    position: relative;
+    top: -70px;
+    left: -30px;
+    font-size: .8em;
+}
+
+.inner h4 {
+    color: firebrick
+}
+
+.section7 {
+    max-width: 100%;
+    text-align: center;
+    margin: 50px; auto;
+}
+
+.section7 h2 {
+ display: block;
+ width: 80%;
+ font-size: 3em;
+ text-align: center;
+ margin: 0 auto;
+ padding: 15px 0 40px 0;
+    
+}
+
+.bottom_a {
+    display: inline-block;
+    margin: 5px 13px;
+    padding: 5px;
+    width: 160px;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    overflow: hidden;
+   
+}
+
+
+
+.bottom_a h4 {
+    color: firebrick;
+}
+
+  .bottom_a:hover {
+    color: #000;
+}
+
+.center {
+    text-align: center;
+    margin: 0 0 0 30px;
+    margin: 0 auto;
+}
+
+.bottom_a:nth-child(2) {
+    
+    position: relative;
+    top:20px;
+}
+
+.section8 {
+    max-width: 70%;
+    text-align: center;
+    margin: 10px auto 30px;
+}
+
+.left {
+    display: inline-block;
+    max-width: 45%;
+    padding:  0 4%;
+    text-align: center; 
+}
+
+.left h4 {
+    color: firebrick;
+    padding: 5px 0 10px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.left h3 {
+    font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+    padding: 0;
+    cursor: grab;
+}
+
+.left p {
+    font-size: .9em;
+    color: #666;
+    position: relative;
+    top:-10px;
+}
+
+
+
+.left a {
+    cursor: grab;
+}
+
+
+
+.section9 {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.section9 h3 {
+    color: firebrick;
+    text-align: center;
+    
+}
+
+.section9 ul {
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: -20px;
+}
+
+.section9 li {
+    list-style: none;
+    text-align: center;
+    padding: 7px 0;
+}
+
+.section9 a {
+    color: #369;
+    text-decoration: none;
+    font-size: .9em;
+}
+
+p a {
+  color: #369;
+  margin: 0 6px;
+  text-decoration: none;
+}
+
+fotter {
+    text-align: center;
+    margin: 0auto;
+    max-width: 70%;
+    font-size: .75em;
+    padding: 30px 0
+}
+
+fotter p {
+    margin: 50px auto;
+    color: gray;
+}
+
+
+
+@media screen and (max-width: 420px) {
+ 
+nav ul {
+  display: block;
+  margin: 13px 5px 0 0;
+}
+    
+nav li {
+  list-style: none;
+  display: inline-block;
+  margin: 4px 0;
+  padding: 0;
+  font-size: 8px;
+}
+    
+}

@@ -1,0 +1,298 @@
+body {
+    margin: 0 auto;
+    background: #fff;
+}
+
+.max-width {
+    max-width: 50%;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+/***********************************
+    header
+************************************/
+
+header p {
+    font-family: 'Open Sans', serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: .8em;
+    letter-spacing: 8px;
+   
+    
+}
+
+header h3 {
+    font-family: 'Old Standard TT', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -12px;
+    font-weight: 200;
+    letter-spacing: 15px;
+    font-size: 1.2em;   
+    
+}
+
+/***********************************
+    sticky nav
+************************************/
+
+nav {
+    font-family: 'Open Sans', serif;
+    text-transform: uppercase; 
+    text-align: center;
+    background:#fff;
+}
+
+.nav-placeholder {
+    margin: 0 0 10px 0;
+}
+
+nav ul {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 4%;
+    text-align: center;
+    font-size: .8em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: .8em;
+}
+
+.fixed {
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+.fixed .nav-inner {
+    margin: 0 auto;
+}
+
+
+/***********************************
+    pic
+************************************/
+#pic {
+    margin:0 0 20px 0;
+}
+
+#pic img{
+    max-width:100%;
+}
+
+/***********************************
+    discription
+************************************/
+
+.discription {
+    margin: 0 auto;
+    max-width: 50%;
+    text-align: center;
+}
+
+.discription-header h4 {
+    text-align: center;
+    padding:20px 20px 0 20px;
+    font-family: 'Old Standard TT', serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 3px;
+}
+
+.discription-fotter p {
+    font-family: 'Open Sans', serif;
+    text-transform: capitalize;
+    font-size: .85em;
+    padding: 5px 0 15px 0; 
+    color:gray;
+    letter-spacing: 1.2px;
+    line-height: 1.8em;
+}
+
+/***********************************
+    border
+************************************/
+
+.border-bottom {
+    border-bottom: 30px solid #000;
+    max-width: 20%;
+    margin: 0 auto; 
+    border-bottom-width: thin;
+    
+}
+
+
+/***********************************
+    form
+************************************/
+
+.form {
+    background: #303c49;
+    padding: 25px;
+    text-align: center;
+    color: lightgray;
+    max-width: 100%;
+    
+}
+
+.form h4 {
+    font-family: 'Old Standard TT', serif;
+    text-transform: uppercase;
+    ont-size: 1.0em;
+    letter-spacing: 3px;
+}
+
+.form p {
+    font-family: 'Open Sans', serif;
+    text-transform: none;
+    font-size: .5em;
+    max-width: 50%;
+    margin: 0 auto; 
+        
+}
+
+form {
+   font-family: 'Open Sans', serif;
+   text-transform: none;
+   font-size: .5em;
+   text-align: center;
+}
+
+form input {
+    background: #303c49;
+    border: 1px solid lightgray;
+    padding: 5px;
+    color:#fff;
+    max-width: 100%;
+}
+
+.square {
+    text-align: center;
+    margin:10px 0;
+}
+.input {
+    margin-left: 20px;
+}
+
+.top-input input {
+    margin: 5px 5px;
+}
+
+.text-area {
+    margin: 15px;
+    color: #fff;
+}
+
+.text-area textarea {
+    background: #303c49;
+    color: #fff;
+    border: 1px solid lightgray;
+    width:40%!important;
+    height: 100px;
+}
+
+.submit input{
+    background: #7f78ab;
+    border: none;
+    color: #fff;
+    
+}
+
+
+
+
+
+
+
+
+/***********************************
+    fotter
+************************************/
+
+.fotter {
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.fotter-header {
+    margin: 0 auto;
+    max-width: 50%;
+    padding: 20px 0 0 0;
+}
+
+.fotter-header h3 {
+    font-family: 'Old Standard TT', serif;
+    text-transform: uppercase;
+    font-size: .85em;
+    letter-spacing: 4px;
+}
+
+.contact {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.contact-info{
+  list-style:none;
+  padding:0;
+  margin:0 auto;
+  font-size:.75em;
+  text-align: center;
+  padding: 50px 0 30px 0;
+
+}
+
+.contact-info a {
+  display:inline-block;
+  min-height:20px;
+  background-repeat: no-repeat;
+  background-size:20px 20px;
+  padding:5px 0 0 30px;
+  color: #000;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 1.2em;
+
+
+}
+
+.contact-info li.phone a {
+    background-image: url('../images/phone.gif')
+}
+
+.contact-info li.email a {
+    background-image: url('../images/mail.png')
+}
+
+.social-icon{
+width:18px;
+height:18px;
+margin:10px 10px 15px;
+}
+
+/*******************************
+pseudo classes
+*******************************/
+
+/* nav link */
+nav a, nav a:visited {
+  color: #000;
+}
+
+
+nav a.selected, nav a:hover {
+  color: #000;
+}
