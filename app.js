@@ -8,10 +8,10 @@ const http = require("http"),
 
 
   //host
-  let host = "127.0.0.1";
+  let host = "0.0.0.0";
 
   //port
-  let port = process.env.PORT || 27022;
+  let port = process.env.PORT || 8080;
 
   //express app
   let app = express();
